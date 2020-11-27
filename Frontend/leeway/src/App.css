@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+   max-width: 380px;
+   margin: 0 auto;
+}
+p {
+   text-align: center;
+   font-weight: 800;
+}
+input[type=text],input[type=email], select, textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   box-sizing: border-box;
+   margin-top: 10px;
+   margin-bottom: 18px;
+   resize: vertical;
+}
+input[type=submit] {
+   background-color: #4c5baf;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 40px;
+   cursor: pointer;
+   margin-top: 10px;
+   
+}
+input[type=submit]:hover {
+   background-color: #45a049;
+   margin-top: 10px;
+}
+
+.container {
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 20px;
+}
+
+
+.box {
+   border: 1px solid black;
+   margin: 5px;
+   padding: 5px;
+   background-color: bisque;
+   border-radius: 25px;
+}
+
+
+#getbttn{
+   margin-top: 12px;
+   background-color: #4c5baf;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 40px;
+   cursor: pointer;
+   margin-top: 10px;
+   
+}
